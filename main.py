@@ -88,7 +88,7 @@ if __name__ == "__main__":
         town_name = f.readline().strip()
         population = int(f.readline().strip())
         start_time = f.readline().strip()
-        simulation_duration = int(f.readline().strip())
+        simulation_duration = int(f.readline().strip()) # make this literally any length desired, will need to be a parameter when getting info from UI
         
         # Default values if not specified in settings
         alpha = 0.16557695315916893
