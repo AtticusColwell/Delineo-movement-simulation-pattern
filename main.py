@@ -83,7 +83,7 @@ if __name__ == "__main__":
     import time
     start_time_execution = time.time()
 
-    # Run the main function
+    # Run the main function, settings can be configured however needed
     with open('setting.txt', 'r') as f:
         town_name = f.readline().strip()
         population = int(f.readline().strip())
